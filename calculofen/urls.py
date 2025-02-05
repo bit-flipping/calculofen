@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
     path('calcula', views.calcula, name='calcula'),
+    path('simple_upload', views.simple_upload, name='simple_upload'),
     path('seleciona', views.seleciona, name='seleciona')
 ]
